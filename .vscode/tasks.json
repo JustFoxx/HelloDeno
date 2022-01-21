@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Run deno",
+			"command": "deno run --allow-net --allow-env --allow-read --allow-write --unstable ${file}",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
